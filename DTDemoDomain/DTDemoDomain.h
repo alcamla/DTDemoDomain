@@ -16,4 +16,8 @@ FOUNDATION_EXPORT const unsigned char DTDemoDomainVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <DTDemoDomain/PublicHeader.h>
 
+#import <DTDemoDomain/DTFeatureModel.h>
+
+#import <DTDemoDomain/DTFeatureACoordinatorProtocol.h>
+#import <DTDemoDomain/DTFeatureBCoordinatorProtocol.h>
 

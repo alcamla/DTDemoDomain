@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		4418440C1F136F9F00D391A1 /* DTDemoDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 4418440A1F136F9F00D391A1 /* DTDemoDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		441844141F136FC100D391A1 /* DTFeatureModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 441844121F136FC100D391A1 /* DTFeatureModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		441844151F136FC100D391A1 /* DTFeatureModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 441844131F136FC100D391A1 /* DTFeatureModel.m */; };
+		441844181F13700400D391A1 /* DTFeatureACoordinatorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 441844161F136FE400D391A1 /* DTFeatureACoordinatorProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		441844191F13700400D391A1 /* DTFeatureBCoordinatorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 441844171F136FFD00D391A1 /* DTFeatureBCoordinatorProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		441844071F136F9F00D391A1 /* DTDemoDomain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DTDemoDomain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4418440A1F136F9F00D391A1 /* DTDemoDomain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTDemoDomain.h; sourceTree = "<group>"; };
 		4418440B1F136F9F00D391A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		441844121F136FC100D391A1 /* DTFeatureModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTFeatureModel.h; sourceTree = "<group>"; };
+		441844131F136FC100D391A1 /* DTFeatureModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTFeatureModel.m; sourceTree = "<group>"; };
+		441844161F136FE400D391A1 /* DTFeatureACoordinatorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTFeatureACoordinatorProtocol.h; sourceTree = "<group>"; };
+		441844171F136FFD00D391A1 /* DTFeatureBCoordinatorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTFeatureBCoordinatorProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +56,10 @@
 			children = (
 				4418440A1F136F9F00D391A1 /* DTDemoDomain.h */,
 				4418440B1F136F9F00D391A1 /* Info.plist */,
+				441844121F136FC100D391A1 /* DTFeatureModel.h */,
+				441844131F136FC100D391A1 /* DTFeatureModel.m */,
+				441844161F136FE400D391A1 /* DTFeatureACoordinatorProtocol.h */,
+				441844171F136FFD00D391A1 /* DTFeatureBCoordinatorProtocol.h */,
 			);
 			path = DTDemoDomain;
 			sourceTree = "<group>";
@@ -59,7 +71,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				441844181F13700400D391A1 /* DTFeatureACoordinatorProtocol.h in Headers */,
+				441844191F13700400D391A1 /* DTFeatureBCoordinatorProtocol.h in Headers */,
 				4418440C1F136F9F00D391A1 /* DTDemoDomain.h in Headers */,
+				441844141F136FC100D391A1 /* DTFeatureModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				441844151F136FC100D391A1 /* DTFeatureModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
